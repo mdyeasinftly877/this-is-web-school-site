@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(59, 69, 163);
+}
+.full-div{
+    height: 720px;
+    width: 700px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 22px rgb(255, 255, 255);
+}
+
+.footer{
+    background: rgb(104, 207, 100);
+    padding: -20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer .this-img1{
+    height: 68px;
+    width: 68px;
+    position: relative;
+    bottom: 20px;
+    left: 265px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px rgb(19, 62, 255);
+}
+
+
+
+.footer h1{
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    position: relative;
+    top: 38px;
+    right: 44px;
+    letter-spacing: 3px;
+  
+  
+}
+
+.footer h1 a i{
+    font-size: 46px;
+    color: black;
+}
+
+.full-menu{
+    margin: -54px auto;
+    text-align: center;
+   
+   
+}
+
+.this-b1{
+      position: relative;
+    right: 105px;
+    top: 93px;
+    font-size: 22px;
+}
+
+.this-b2{
+    position: relative;
+    right: 165px;
+    top: 96px;
+    font-size: 22px;
+}
+.this-b3{
+    position: relative;
+    right: 199px;
+    top: 96px;
+    font-size: 22px;
+}
+
+.this-b4{
+    position: relative;
+    right: 200px;
+    top: 96px;
+    font-size: 22px;
+}
+
+.this-b5{
+    position: relative;
+    right: 180px;
+    top: 96px;
+    font-size: 22px;
+}
+
+.this-s1{
+    position: relative;
+    top: 106px;
+    padding: 9px 208px;
+    border-radius: 4px;
+    border: 2px solid rgba(88, 85, 85, 0.842);
+
+}
+
+.this-s2{
+    position: relative;
+    top: 106px;
+    padding: 9px 208px;
+    border-radius: 4px;
+    border: 2px solid rgba(88, 85, 85, 0.842);
+
+}
+
+
+.this-s3{
+    position: relative;
+    top: 106px;
+    padding: 9px 197px;
+    border-radius: 4px;
+    border: 2px solid rgba(88, 85, 85, 0.842);
+
+}
+
+.this-s-all:hover{
+    transform: scale(1.1);
+    border: 2px solid rgba(30, 38, 151, 0.842);
+    transition: .4s;
+}
+
+
+.full-menu input{
+    padding: 9px 150px;
+    background: rgba(255, 254, 254, 0.774);
+   border: 2px solid rgba(88, 85, 85, 0.842);
+   border-radius: 4px;
+   text-align: left;
+   outline: none;
+   position: relative;
+   top: 103px;
+   transition: .4s;
+   font-family: sans-serif;
+}
+
+.full-menu input::placeholder{
+    position: relative;
+    left: 50px;
+}
+
+
+.full-menu  input:hover{
+    transform: scale(1.1);
+    border: 2px solid rgba(30, 38, 151, 0.842);
+}
+
+
+.this-btn{
+       position: relative;
+       top: 152px;
+}
+
+.this-btn a{
+    text-decoration: none;
+    color: black;
+   display: inline-block;
+    background: rgb(136, 206, 115);
+    padding: 10px 140px;
+    font-size: 19px;
+    position: relative;
+    bottom: 24px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+     border-radius: 2px;
+     transition: .2s;
+    
+}
+
+.this-btn a:hover{
+    background: rgb(106, 137, 221);
+    transform: scale(1.1);
+    color: white;
+}
+
+.this-end{
+    position: relative;
+    top: 225px;
+  
+}
+
+.this-end p{
+    color: rgb(0, 0, 0);
+    background:rgb(104, 207, 100);
+      font-family: sans-serif;
+    padding: 10px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 0 0 10px 10px;
+    transition: .5s;
+}
+
+.this-end p a i{
+    color: rgb(0, 0, 0);
+    
+}
+
+.this-end p:hover{
+     background: #5fe7c5;
+     transform: scale(1.3);
+}
